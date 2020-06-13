@@ -8,6 +8,8 @@ NUM_FEATURES = 10
 
 ALPH = " абвгґдеєжзиіїйклмнопрстуфхцчшщьюя'-"
 
+import sys
+
 def decision_tree(f1, f2, f3, f4, f5, f6, f7, f8, f9, f10):
   # DecisionTreeClassifier(class_weight=None, criterion='entropy', max_depth=14,
   #                        max_features=None, max_leaf_nodes=3000,
