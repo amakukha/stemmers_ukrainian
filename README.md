@@ -1,6 +1,6 @@
 This repository introduces a new stemmer for the Ukrainian language (*tree_stem*) created via machine learning. It outperforms all other stemmers available to date as well as some lemmatizers by the error rate relative to truncation (ERRT) (Paice 1994). It also has the lowest percentage of undestemming errors compared to the available stemming algorithms.
 
-The proposed algorithm algorithm does not use dictionary lookups while maintaining a reasonably small size (90 KB of Python bytecode). It works faster the lemmatization approach by a factor of x24, and outperforms other stemming algorithms in speed as well.
+The proposed algorithm does not use dictionary lookups while maintaining a reasonably small size (90 KB of Python bytecode). It works faster the lemmatization approach by a factor of x24, and outperforms other stemming algorithms in speed as well.
 
 In addition to the new algorithm, this repository also contains Python ports of some of the previously available stemmers.
 
@@ -23,7 +23,7 @@ where:
  - *OI* – overstemming index
  - *ERRT* – error rate relative to truncation
 
-Note that *pymorphy2* is a dictionary-assisted morphological analyzer which was included into this comparison for reference. The most probable normal form is used instead of a stem.
+Note that *pymorphy2* is a dictionary-assisted lemmatizer and morphological analyzer which was included into this comparison for reference. The most probable normal form is used as a stem.
 
 References
 --
