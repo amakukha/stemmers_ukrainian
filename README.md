@@ -1,6 +1,6 @@
-This repository introduces a new stemmer for the Ukrainian language (*tree_stem*) created via machine learning. It outperforms all other stemmers available to date as well as some lemmatizers by the error rate relative to truncation (ERRT) (Paice 1994).
+This repository introduces a new stemmer for the Ukrainian language (*tree_stem*) created via machine learning. It outperforms all other stemmers available to date as well as some lemmatizers by the error rate relative to truncation (ERRT) (Paice 1994). It also has the lowest percentage of undestemming errors compared to the available stemming algorithms.
 
-In addition to the mentioned algorithm, this repository also contains Python ports of some of the previously available stemmers.
+In addition to the new algorithm, this repository also contains Python ports of some of the previously available stemmers.
 
 Comparison of stemmers for the Ukrainian language
 --
