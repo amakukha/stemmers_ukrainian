@@ -23,6 +23,8 @@ where:
  - *OI* – overstemming index
  - *ERRT* – error rate relative to truncation
 
+Note that *pymorphy2* is a lemmatizer which was included into this comparison for reference. The most probable normal form is used instead of a stem.
+
 References
 --
 
