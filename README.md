@@ -10,7 +10,7 @@ Comparison of stemmers for the Ukrainian language
 | Stemmer | Languages | UI | OI | ERRT |
 | --- | :---: | :---: | :---: | :---: |
 | *Dictionary-based (reference)* | – | 0.0172 | 3.59e-06 | **0.0244** |
-| tree\_stem | [Python](https://github.com/amakukha/stemmers_ukrainian/blob/master/src/tree_stem.py) | 0.100 | 2.60e-06 | **0.139** |
+| tree\_stem | [Python](https://github.com/amakukha/stemmers_ukrainian/blob/master/src/tree_stem.py) | 0.0907 | 2.71e-06 | **0.125** |
 | pymorphy2 [\[1\]](https://link.springer.com/chapter/10.1007%2F978-3-319-26123-2_31) | [Python](https://github.com/kmike/pymorphy2) | 0.324 | 2.01e-07 | **0.391** |
 | vgrichina | [Groovy](https://github.com/vgrichina/ukrainian-stemmer), [Python](https://github.com/amakukha/stemmers_ukrainian/blob/master/src/vgrichina_stem.py) | 0.497 | 1.05e-06 | **0.651** |
 | drupal | [JS](https://github.com/titarenko/ukrstemmer), [Python](https://github.com/Desklop/Uk_Stemmer) | 0.511 | 7.54e-07 | **0.666** |
