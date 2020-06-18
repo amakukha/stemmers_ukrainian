@@ -15,7 +15,7 @@ Comparison of stemmers for the Ukrainian language
 | tree\_stem | [Python](https://github.com/amakukha/stemmers_ukrainian/blob/master/src/tree_stem.py) | **0.0907** | 2.71e-06 | <ins>**0.125**</ins> |
 | pymorphy2 ([Paper](https://link.springer.com/chapter/10.1007%2F978-3-319-26123-2_31)) | [Python](https://github.com/kmike/pymorphy2) | 0.324 | **2.01e-07** | **0.391** |
 | stemka | [C++](http://www.keva.ru/stemka/stemka.html) | 0.329 | 2.34e-06 | **0.447** |
-| tapkomet | [Snowball, Java](https://github.com/Tapkomet/UAStemming) | 0.447 | 2.73e-06 | **0.603** |
+| tapkomet | [Snowball](https://github.com/Tapkomet/UAStemming), [C](https://github.com/amakukha/stemmers_ukrainian/tree/master/src/tapkomet_stem), [Java](https://github.com/Tapkomet/UAStemming) | 0.447 | 2.73e-06 | **0.603** |
 | vgrichina | [Groovy](https://github.com/vgrichina/ukrainian-stemmer), [Python](https://github.com/amakukha/stemmers_ukrainian/blob/master/src/vgrichina_stem.py) | 0.497 | 1.05e-06 | **0.651** |
 | drupal | [JS](https://github.com/titarenko/ukrstemmer), [Python](https://github.com/Desklop/Uk_Stemmer) | 0.511 | 7.54e-07 | **0.666** |
 | tochytskyi ([Paper](http://ekmair.ukma.edu.ua/bitstream/handle/123456789/12541/Hlybovets_Tochytskyi_Alhorytm_tokenizatsii.pdf?sequence=1&isAllowed=y)) | [PHP](https://github.com/tochytskyi/ukrstemmer), [Python](https://github.com/amakukha/stemmers_ukrainian/blob/master/src/tochytskyi_stem.py) | 0.623 | 5.72e-07 | **0.795** |
