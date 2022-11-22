@@ -35,5 +35,5 @@ Notes:
 References
 --
 
- - Paice, C. (1994). [An Evaluation Method for Stemming Algorithms](http://citeseerx.ist.psu.edu/viewdoc/download?doi=10.1.1.89.9560&rep=rep1&type=pdf). *Proceedings of the 17th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval*, 42-50.
+ - Paice, C. (1994). [An Evaluation Method for Stemming Algorithms](https://web.archive.org/web/20060705163430id_/http://widit.slis.indiana.edu/irpub/SIGIR/1994/pdf5.pdf). *Proceedings of the 17th Annual International ACM SIGIR Conference on Research and Development in Information Retrieval*, 42-50.
 
